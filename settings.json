@@ -1,0 +1,85 @@
+{
+    "C_Cpp.updateChannel": "Insiders",
+    "window.zoomLevel": 3,
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "explorer.confirmDelete": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "explorer.confirmDragAndDrop": false,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "HookyQR.beautify",
+    "vim.commandLineModeKeyBindings": [],
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "k"],
+            "after": ["<Esc>"]
+        },
+        {
+            "before": ["<C-l>"],
+            "after": ["<Right>"]
+        },
+        {
+            "before": ["<C-k>"],
+            "after": ["<Up>"]
+        },
+        {
+            "before": ["<C-j>"],
+            "after": ["<Down>"]
+        },
+        {
+            "before": ["<C-h>"],
+            "after": ["<Left>"]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["c", "i"],
+            "commands": ["editor.action.commentLine"]
+        },
+        {
+            "before": ["t", "e"],
+            "commands": ["workbench.action.terminal.focus"]
+        }
+    ],
+    "vim.commandLineModeKeyBindingsNonRecursive": [],
+    "prettier.tabWidth": 2,
+    "prettier.useTabs": true,
+    "editor.tabCompletion": "on",
+    "material-icon-theme.folders.associations": {
+        "mixins": "functions",
+        "store": "vuex-store",
+        ".nuxt": "nuxt"
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "php": "html"
+    },
+    "emmet.extensionsPath": [""],
+    "editor.tabSize": 2,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "[python]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4
+    },
+    "[django-html]": {
+        "editor.formatOnSave": false
+    },
+    "go.toolsManagement.autoUpdate": true,
+    "terminal.integrated.tabs.enabled": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "beautify.language": {
+        "js": {
+            "type": ["javascript", "json", "jsonc"],
+            "filename": [".jshintrc", ".jsbeautifyrc"]
+        },
+        "css": ["css", "less", "scss"],
+        "html": ["htm", "html", "php"]
+    },
+    "editor.quickSuggestions": {
+        "comments": false,
+        "other": true,
+        "strings": true
+    }
+}
